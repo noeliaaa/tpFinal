@@ -1,0 +1,42 @@
+.slider {
+  width: 100%;
+  margin-top: -60px;
+  background-color: black;
+}
+
+.slick-prev, .slick-next {
+  margin-left: 40px;
+  margin-right: 40px;
+  z-index: 4;
+}
+
+.navbar-default {
+    background-color: transparent;
+}
+
+.menu {
+  z-index: 1000;
+  position: relative;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.imagenes{
+  opacity: 0.5;
+    z-index: 2;
+}
+
+#texto {
+  z-index: 4;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -10% 0 0 -20%;
+    background: transparent;
+  font-family:'Alegreya Sans SC', sans-serif;
+  text-transform: uppercase;
+  color:white;
+}
